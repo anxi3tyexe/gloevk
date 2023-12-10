@@ -1,0 +1,13 @@
+.store_header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.store_bulb {
+  margin-left: 200px;
+}
+
+.store_divider {
+  border-bottom: 2px solid grey;
+}

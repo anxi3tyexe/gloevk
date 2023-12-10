@@ -1,56 +1,103 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="ru">
   <head>
     <meta charset="utf-8" />
-
+    <link rel="stylesheet" href="./css/storecss/index.css" />
     <title>Задание 33</title>
   </head>
 
   <body>
-    <img src="logo-full.svg" />
+    <div class="container">
+      <div class="store_header">
+        <img
+          width="100px"
+          height="100px"
+          class="store_bulb"
+          src="visualstuff/logos/logo-full.svg"
+        />
+        <div class="store_divider"></div>
+      </div>
 
-    <h1><a href="30.html">Комфорт и уют в вашей квартире</a></h1>
+      <div class="comfort_wrapper">
+        <div class="comfort">
+          <div class="comfort_textblock">
+            <h1 class="comfort_title">
+              <a href="index.html"
+                >Комфорт и уют в <br />
+                вашей квартире</a
+              >
+              <p>
+                Разнообразные товары для дома <br />
+                с доставкой по всей планете<br />
+              </p>
+            </h1>
+          </div>
+          <img
+            class="comfort_chairpic"
+            src="visualstuff/store-background.JPG"
+          />
+        </div>
+      </div>
 
-    <img src="index-background.JPG" />
-
-    <p>Разнообразные товары для дома с доставкой по всей планете<br /></p>
-
-    <h2>Самые популярные товары</h2>
-
-    <ul>
-      <li>
-        Мсеюлида
-        <figure>
-          <img src="item-mseyulida.jpg" width="270" и высоту height="200" />
-          <figcaption>
-            лампа напольная
-            <p><s>289₽</s> 288₽</p>
-          </figcaption>
-        </figure>
-      </li>
-      <li>
-        Рмаериби
-        <figure>
-          <img src="item-rmaeribi.jpg" width="270" и высоту height="200" />
-          <figcaption>
-            диван трёхместный
-            <p>5870₽</p>
-          </figcaption>
-        </figure>
-      </li>
-      <li>
-        Блетуб
-        <figure>
-          <img src="item-bletub.jpg" width="270" и высоту height="200" />
-          <figcaption>
-            люстра потолочная
-            <p>1360₽</p>
-          </figcaption>
-        </figure>
-      </li>
-    </ul>
-
-    <p>ⓒ 2022</p>
+      <div class="popular_wrapper">
+        <div class="popular">
+          <h2 class="popular_title">Самые популярные товары</h2>
+          <ul class="popular_list">
+            <li class="popular_card">
+              <figure>
+                <img
+                  src="visualstuff/storeitems/item-mseyulida.jpg"
+                  width="270"
+                  и
+                  высоту
+                  height="200"
+                />
+                Мсеюлида
+                <figcaption>
+                  лампа напольная
+                  <p><s>289₽</s> 288₽</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="popular_card">
+              <figure>
+                <img
+                  src="visualstuff/storeitems/item-rmaeribi.jpg"
+                  width="270"
+                  и
+                  высоту
+                  height="200"
+                />
+                Рмаериби
+                <figcaption>
+                  диван трёхместный
+                  <p>5870₽</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="popular_card">
+              <figure>
+                <img
+                  src="visualstuff/storeitems/item-bletub.jpg"
+                  width="270"
+                  и
+                  высоту
+                  height="200"
+                />
+                Блетуб
+                <figcaption>
+                  люстра потолочная
+                  <p>1360₽</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer">
+        <p>© 2022</p>
+        <p>gloevk</p>
+      </div>
+    </div>
   </body>
 </html>

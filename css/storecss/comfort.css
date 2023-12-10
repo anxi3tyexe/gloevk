@@ -1,0 +1,35 @@
+.comfort_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.comfort_textblock {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  margin-left: -70px;
+}
+
+.comfort {
+  margin-top: 70px;
+  display: flex;
+}
+
+.comfort_textblock a {
+  text-decoration: none;
+  color: black;
+}
+
+.comfort_textblock p {
+  font-size: 14px;
+}
+
+.comfort_textblock h1 {
+  font-size: 26px;
+}
+
+.comfort_chairpic {
+  position: relative;
+  left: 70px;
+  z-index: -1;
+}

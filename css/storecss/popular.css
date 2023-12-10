@@ -1,0 +1,26 @@
+.popular_wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: beige;
+  margin-top: 60px;
+}
+
+.popular {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.popular_list {
+  display: flex;
+  gap: 10px;
+}
+
+.popular_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
